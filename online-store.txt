@@ -1,33 +1,52 @@
 ================================================================================
 REQUIREMENTS
 
-Account Management:
-  Users can create, edit, and delete their accounts.
-  Users can log in and log out securely.
-  Users can reset their password in case of a forgotten password.
+User Requirements
+  Account Management:
+    Users can create, edit, and delete their accounts.
+    Users can log in and log out securely.
+    Users can reset their password in case of a forgotten password.
 
-Product Browsing:
-  Users can browse through a catalog of products, organized by categories.
-  Users can search for products using keywords and filters (e.g., price range, rating, popularity).
+  Product Browsing:
+    Users can browse through a catalog of products, organized by categories.
+    Users can search for products using keywords and filters (e.g., price range, rating, popularity).
 
-Product Details:
-  Users can view detailed information about each product, including images, descriptions, prices, stock availability, and reviews.
+  Product Details:
+    Users can view detailed information about each product, including images, descriptions, prices, stock availability, and reviews.
 
-Shopping Cart:
-  Users can add or remove products from their shopping cart.
-  The shopping cart persists across sessions if the user is logged in.
-  Users can adjust product quantities in their shopping cart.
+  Shopping Cart:
+    Users can add or remove products from their shopping cart.
+    The shopping cart persists across sessions if the user is logged in.
+    Users can adjust product quantities in their shopping cart.
 
-Checkout and Payment:
-  Users can proceed to checkout with items in their cart.
-  Users can choose from various payment methods (e.g., credit/debit card, PayPal, gift cards).
-  Payment information is processed securely, and sensitive data is handled according to PCI-DSS standards.
+  Checkout and Payment:
+    Users can proceed to checkout with items in their cart.
+    Users can choose from various payment methods (e.g., credit/debit card, PayPal, gift cards).
+    Payment information is processed securely, and sensitive data is handled according to PCI-DSS standards.
 
-Order Tracking:
-  Users receive order confirmation with a summary of their purchase.
-  Users can track the status of their orders (processing, shipped, delivered).
-  Users can view their order history in their account.
+  Order Tracking:
+    Users receive order confirmation with a summary of their purchase.
+    Users can track the status of their orders (processing, shipped, delivered).
+    Users can view their order history in their account.
 
-Product Reviews:
-  Users can write reviews and rate products they've purchased.
-  Users can view other customers’ reviews for products.
+  Product Reviews:
+    Users can write reviews and rate products they've purchased.
+    Users can view other customers’ reviews for products.
+
+Admin Requirements
+  Inventory Management:
+    Admins can add, edit, and delete products in the catalog.
+    Admins can manage stock levels for each product.
+
+  Order Management:
+    Admins can view and manage customer orders (e.g., update order status).
+    Admins can process refunds and handle return requests.
+
+  User Management:
+    Admins can manage user accounts and handle account-related issues.
+    Analytics and Reports:
+    Admins can access reports on sales, customer behavior, and inventory levels.
+
+================================================================================
+Architectural Characteristics
+
